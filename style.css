@@ -1,0 +1,34 @@
+h1{
+    font-style:oblique;
+    color: #50479A;
+    font-size: 50px;
+    font-family: fantasy;
+  }
+  .aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 3px solid #dbdbdb;
+  }
+  body{
+    background-color: #FFF5EE;
+  }
+  h3{
+    font-style: italic;
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    color: #50479A;
+  }
+  p, li{
+    font-size: 20px;
+  }
+  #negrito{
+    font-weight: bold;
+  }
+  #pequeno{
+    font-style: italic;
+  }
