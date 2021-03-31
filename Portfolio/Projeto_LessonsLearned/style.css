@@ -1,0 +1,114 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Georgia, Times, serif;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: green;
+  width: 100%;
+  border: 3px solid;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#links {
+  text-align: center;
+}
+
+#links ul li {
+  display: inline-block;
+  margin-left: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+a:hover {
+  font-weight: 600;
+}
+
+#minha_foto {
+  border-radius: 20%;
+}
+
+#foto {
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+  top: 120px;
+  position: relative;
+}
+
+#tabela {
+  float: right;
+  margin-right: 200px;
+  border: 3px solid;
+  font-style: italic;
+}
+
+#tabela th {
+  width: 80px;
+  border: 1px solid;
+}
+
+#tabela td {
+  text-align: center;
+  border: 1px solid;
+}
+
+#nome {
+  line-height: 20px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+#lista {
+  display: inline-block;
+  margin-top: 30px;
+  top: 50px;
+}
+
+#licoes_aprendidas {
+  float: left;
+}
+
+#licoes_a_aprender {
+  float: right;
+  margin-left: 350px;
+}
+
+#texto {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.lado-esquerdo {
+  text-align: justify;
+  float: left;
+  width: 49%;
+  border-right: 2px solid green;
+  padding-right: 10px;
+}
+
+.lado-direito {
+  width: 49%;
+  text-align: justify;
+  margin-right: 5px;
+  float: right;
+}
+
+#texto h3 , p {
+  margin: 0 10px;
+}
+
+#rodape {
+  margin-top: 20px;
+  font-size: small;
+  text-align: right;
+  bottom: 0;
+  width: 100%;
+}
