@@ -109,3 +109,8 @@
   .contato {
     line-height: 2;
   }
+
+  #link {
+    text-decoration: none;
+    font-style: normal;    
+  }
